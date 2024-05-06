@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+  float celsius, fahrenheit, kelvin;
+  
+  printf ("Ingrese la temperatura en grados Celsius que desea convertir: ");
+  scanf ("%f", &celsius);
+
+  
+  fahrenheit = (celsius * 9/5) + 32;
+  kelvin = celsius + 273.15;
+
+ printf("\n%.2f grados Celsius equivalen a %.2f grados Fahrenheit.\n", celsius, fahrenheit);
+ printf("%.2f grados Celsius equivalen a %.2f grados Kelvin.\n", celsius, kelvin);
+
+  return 0;
+}
